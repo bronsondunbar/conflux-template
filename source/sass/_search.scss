@@ -1,0 +1,40 @@
+/* Search */
+
+.search {
+
+	position: relative;
+	margin: 15px 0;
+
+	a {
+
+		position: absolute;
+		top: -1px;
+		right: 7px;
+		color: $white;
+		font-size: 1.5em;
+
+		&:hover, &:focus {
+
+			text-decoration: none;
+
+		}
+
+	}
+
+	input {
+
+		padding: 5px 5px 5px 35px;
+
+	}
+
+	.fa-search {
+
+		position: absolute;
+		top: 5px;
+		left: 7px;
+		color: $white;
+		font-size: 1.5em;
+
+	}
+
+}

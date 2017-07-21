@@ -1,0 +1,237 @@
+
+@import 'bootstrap';
+@import 'font.awesome';
+@import 'font.awesome.animation';
+
+@import 'variables';
+@import 'typography';
+@import 'search';
+@import 'navbar';
+@import 'buttons';
+
+body {
+
+	background: $darkPurple;
+	background: $purpleGradient;
+	padding-top: 80px;
+	overflow-x: hidden;
+	text-align: justify;
+	color: $white;
+
+	@media (max-width: $mobileLarge) {
+
+		padding-top: 70px;
+
+	}
+
+}
+
+a {
+
+	color: $white;
+	text-decoration: none;
+	transition: $fastTransition;
+	cursor: pointer;
+
+	&:hover, &:focus {
+
+		color: $gray;
+		text-decoration: none;
+
+	}
+
+}
+
+form {
+
+	text-align: center;
+
+	.btn {
+
+		padding: 6px 30px;
+
+	}
+
+}
+
+input, textarea {
+
+	background: none;
+	border: 1px solid $white;
+	padding: 5px;
+	width: 100%;
+
+	&:focus {
+
+		border: 1px solid $yellow;
+		box-shadow: $yellowShadow;
+
+	}
+
+}
+
+label {
+
+	display: block;
+	margin: 15px 0;
+	font-weight: normal;
+	text-align: center;
+
+}
+
+section {
+
+	background: rgba($black, 0.65);
+	margin: 30px 0;
+	padding: 30px 0;
+
+	.container {
+
+		div {
+
+			h3 {
+
+				margin: 0 0 10px 0;
+				text-align: center;
+
+			}
+
+		}
+
+	}
+
+}
+
+canvas {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+
+}
+
+.brand {
+
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+
+	@media (max-width: $mobileLarge) {
+
+		width: 100%;
+
+	}
+
+}
+
+.footer {
+
+	text-align: center;
+	color: $white;
+	padding: 0 0 15px 0;
+
+	.container {
+
+		ul {
+
+			list-style-type: none;
+			margin: 0 0 15px 0;
+			padding: 0;
+
+			li {
+
+				display: inline-block;
+				padding: 0 15px 0 0;
+
+				&:last-child {
+
+					padding: 0;
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+.highlight {
+
+	position: relative;
+	box-shadow: $blackShadow;
+	border-radius: 50%;
+	margin: 30px 0;
+	transition: $fastTransition;
+	cursor: pointer;
+
+	+ h3 {
+
+		text-align: center;
+
+	}
+
+	img {
+
+		transition: $fastTransition;
+		border-radius: 50%;
+
+	}
+
+	.caption {
+
+		position: absolute;
+		top: 0;
+		left: 16%;
+		text-align: center;
+		width: 70%;
+		opacity: 0;
+		transition: $fastTransition;
+		color: $gray;
+
+		h3 {
+
+			span {
+
+				color: $gray;
+				border-bottom: 3px solid $gray;
+				padding: 0 0 5px 0;
+
+			}
+
+		}
+
+		p {
+
+			margin: 20px 0;
+
+		}
+
+	}
+
+	&:hover, &:focus {
+
+		background: $yellow;
+
+		img {
+
+			opacity: 0.1;
+
+		}
+
+		.caption {
+
+			opacity: 1;
+			transform: translate(0, 140%);
+
+		}
+
+	}
+
+}
+
+

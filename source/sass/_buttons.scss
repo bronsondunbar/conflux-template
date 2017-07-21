@@ -1,0 +1,40 @@
+/* Buttons */
+
+.btn {
+  margin: 5px;
+}
+
+.btn-default {
+
+  background: $yellow;
+  color: $gray;
+  border: 1px solid $yellow;
+  transition: $fastTransition;
+
+  &:hover, &:focus {
+
+    background: $gray;
+    color: $yellow;
+    border: 1px solid $gray;
+    box-shadow: $yellowShadow;
+
+  }
+
+}
+
+.btn-primary {
+
+  background: $gray;
+  color: $yellow;
+  border: 1px solid $gray;
+  transition: $fastTransition;
+
+  &:hover, &:focus {
+
+    background: $white;
+    color: $gray;
+    border: 1px solid $gray;
+
+  }
+
+}

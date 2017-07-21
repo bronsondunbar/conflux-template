@@ -1,0 +1,29 @@
+
+/* Colours */
+
+$yellow: #F7D518;
+$white: #ffffff;
+$darkPurple: #37005e;
+$gray: #333333;
+$black: #000000;
+
+/* Shadows */
+
+$yellowShadow: 0 0 20px rgba(246, 213, 24, 0.6);
+$blackShadow: 0px 10px 25px 0px rgba(0,0,0,0.65);
+
+/* Transitions */
+
+$fastTransition: all 0.3s;
+
+/* Backgrounds */
+
+$purpleGradient: linear-gradient(135deg, #37005e 0%, #bc6cf4 100%);
+
+/* Screen sizes */
+
+$desktop: 1920px;
+$laptop: 1440px;
+$tabletLandscape: 1024px;
+$tabletPortrait: 768px;
+$mobileLarge: 425px;
