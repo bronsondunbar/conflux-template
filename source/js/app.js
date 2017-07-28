@@ -57,7 +57,8 @@ $(document).ready(function () {
 
     function initHeader() {
         width = window.innerWidth;
-        height = window.innerHeight;
+        height = document.body.clientHeight;
+
         target = {x: width/2, y: height/2};
 
         largeHeader = document.getElementById('wrapper');
@@ -70,10 +71,10 @@ $(document).ready(function () {
 
         // create points
         points = [];
-        for(var x = 0; x < width; x = x + width/20) {
-            for(var y = 0; y < height; y = y + height/20) {
-                var px = x + Math.random()*width/20;
-                var py = y + Math.random()*height/20;
+        for(var x = 0; x < width; x = x + width/30) {
+            for(var y = 0; y < height; y = y + height/30) {
+                var px = x + Math.random()*width/30;
+                var py = y + Math.random()*height/30;
                 var p = {x: px, originX: px, y: py, originY: py };
                 points.push(p);
             }

@@ -129,11 +129,19 @@ canvas {
 
 .footer {
 
+	position: static;
 	text-align: center;
 	color: $white;
-	padding: 0 0 15px 0;
+	padding: 30px 0 15px 0;
+	margin: 0 0 0 0;
 
 	.container {
+
+		p {
+
+			color: $white;
+
+		}
 
 		ul {
 
@@ -149,6 +157,18 @@ canvas {
 				&:last-child {
 
 					padding: 0;
+
+				}
+
+				a {
+
+					color: $yellow;
+
+					&:hover, &:focus {
+
+						color: $white;
+
+					}
 
 				}
 

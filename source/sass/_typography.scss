@@ -1,7 +1,10 @@
 /* Typography */
 
 h1, h2, h3, h4 {
-	font-weight: normal;
+
+	font-family: $titleFontFamily;
+	font-weight: $titleFontWeight;
+
 }
 
 h1 {
@@ -41,5 +44,11 @@ h4 {
 		color: $yellow;
 
 	}
+
+}
+
+body {
+
+	font-family: $bodyFontFamily;
 
 }
