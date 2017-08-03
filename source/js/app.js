@@ -49,15 +49,21 @@ $(document).ready(function () {
 
 /* Animate text heading using Typed JS */
 
-var options = {
-  strings: ["creative.^1000", "bold.^1000", "confident.^1000"],
-  typeSpeed: 40,
-  backSpeed: 40,
-  cursorChar: '|',
-  loop: true
-}
+var currentPage = window.location.href;
 
-var typed = new Typed(".tagline", options);
+if (currentPage.indexOf("index") >= 0) {
+
+    var options = {
+      strings: ["creative.^1000", "bold.^1000", "confident.^1000"],
+      typeSpeed: 40,
+      backSpeed: 40,
+      cursorChar: '|',
+      loop: true
+    }
+
+    var typed = new Typed(".tagline", options);
+
+}
 
 (function() {
 

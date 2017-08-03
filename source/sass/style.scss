@@ -17,6 +17,7 @@ body {
 	overflow-x: hidden;
 	text-align: justify;
 	color: $white;
+	min-height: 100vh;
 
 	@media (max-width: $mobileLarge) {
 
@@ -211,7 +212,7 @@ header {
 	.caption {
 
 		position: absolute;
-		top: 0;
+		top: 10%;
 		left: 16%;
 		text-align: center;
 		width: 70%;
@@ -260,4 +261,23 @@ header {
 
 }
 
+.article {
 
+	background: rgba($white, 0.8);
+	color: $gray;
+	padding: 30px;
+
+	header {
+
+		border-bottom: 1px solid $gray;
+		margin: 0 0 15px 0;
+
+		h1 {
+
+			color: $gray;
+
+		}
+
+	}
+
+}
