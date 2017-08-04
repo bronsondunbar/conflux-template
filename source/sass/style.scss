@@ -269,12 +269,46 @@ header {
 
 	header {
 
-		border-bottom: 1px solid $gray;
 		margin: 0 0 15px 0;
 
 		h1 {
 
+			background: $yellow;
+			padding: 5px;
 			color: $gray;
+
+		}
+
+		p {
+
+			font-size: 2em;
+
+		}
+
+	}
+
+	aside {
+
+		background: $gray;
+		width: 30%;
+		float: right;
+		margin: 0 0 0 15px;
+		padding: 15px;
+		color: $white;
+		text-align: center;
+
+		h1, h2, h3 {
+
+			color: $yellow;
+
+		}
+
+		img {
+
+			display: block;
+			margin: 0 auto;
+			border-radius: 50%;
+			width: 50%;
 
 		}
 
