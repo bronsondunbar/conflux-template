@@ -120,6 +120,45 @@ header {
 
 }
 
+blockquote {
+
+	background: url("../assets/svg/image-1.svg") center no-repeat;
+	position: relative;
+	font-size: 3em;
+	float: right;
+	width: 50%;
+	padding: 0 15px 0 15px;
+	margin: 0 0 0 15px;
+	line-height: 1.3em;
+	text-align: center;
+	color: $darkPurple;
+	border-left: 5px solid $darkPurple;
+
+	&:before {
+
+		font-size: 1.5em;
+		position: absolute;
+		left: 1%;
+		content: open-quote;
+
+	}
+
+	&:after {
+
+		font-size: 1.5em;
+		position: absolute;
+		right: 1%;
+		content: close-quote;
+
+	}
+
+	@media screen and (max-width: $mobileLarge) {
+		display: block;
+		width: 100%;
+	}
+
+}
+
 .brand {
 
 	display: block;
