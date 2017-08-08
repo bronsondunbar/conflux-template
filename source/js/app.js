@@ -49,21 +49,25 @@ $(document).ready(function () {
 
 /* Animate text heading using Typed JS */
 
-var currentPage = window.location.href;
+$(document).ready(function () {
 
-if (currentPage.indexOf("index") >= 0) {
+    var currentPage = window.location.href;
 
-    var options = {
-      strings: ["creative.^1000", "bold.^1000", "confident.^1000"],
-      typeSpeed: 40,
-      backSpeed: 40,
-      cursorChar: '|',
-      loop: true
+    if (currentPage.indexOf("index") >= 0) {
+
+        var options = {
+          strings: ["creative.^1000", "bold.^1000", "confident.^1000"],
+          typeSpeed: 40,
+          backSpeed: 40,
+          cursorChar: '|',
+          loop: true
+        }
+
+        var typed = new Typed(".tagline", options);
+
     }
 
-    var typed = new Typed(".tagline", options);
-
-}
+});
 
 (function() {
 

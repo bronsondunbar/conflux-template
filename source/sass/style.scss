@@ -8,6 +8,7 @@
 @import 'search';
 @import 'navbar';
 @import 'buttons';
+@import 'article';
 
 body {
 
@@ -159,11 +160,17 @@ blockquote {
 
 }
 
+iframe {
+
+	margin: 15px 0;
+
+}
+
 .brand {
 
 	display: block;
 	margin: 0 auto;
-	width:  15%;
+	width:  10%;
 
 	@media (max-width: $mobileLarge) {
 
@@ -293,61 +300,6 @@ blockquote {
 
 			opacity: 1;
 			transform: translate(0, 140%);
-
-		}
-
-	}
-
-}
-
-.article {
-
-	background: rgba($white, 0.8);
-	color: $gray;
-	padding: 30px;
-
-	header {
-
-		margin: 0 0 15px 0;
-
-		h1 {
-
-			background: $yellow;
-			padding: 5px;
-			color: $gray;
-
-		}
-
-		p {
-
-			font-size: 2em;
-
-		}
-
-	}
-
-	aside {
-
-		background: $gray;
-		width: 30%;
-		float: right;
-		margin: 0 0 0 15px;
-		padding: 15px;
-		color: $white;
-		text-align: center;
-
-		h1, h2, h3 {
-
-			color: $yellow;
-
-		}
-
-		img {
-
-			display: block;
-			margin: 0 auto;
-			border-radius: 50%;
-			width: 50%;
 
 		}
 
