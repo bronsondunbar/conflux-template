@@ -3,7 +3,7 @@
 
 .nav {
 
-  @media (max-width: $mobileLarge) {
+  @media (max-width: $mobileLargePortrait) {
 
     display: inline-block;
 
@@ -11,11 +11,17 @@
 
 }
 
+.navbar-right {
+
+  float: right;
+
+}
+
 .navbar-default {
 
 	background: none;
 	border: none;
-  padding: 15px 0 0 0;
+  padding: 15px 0 15px 0;
 
   .navbar-nav {
 
@@ -32,7 +38,7 @@
 
         }
 
-        @media (max-width: $mobileLarge) {
+        @media (max-width: $mobileLargePortrait) {
 
           padding: 10px 9px;
 
@@ -58,7 +64,7 @@
 
         }
 
-        @media (max-width: $mobileLarge) {
+        @media (max-width: $mobileLargePortrait) {
 
           margin: 0;
           padding: 6px 12px;
@@ -67,7 +73,7 @@
 
       }
 
-      @media (max-width: $mobileLarge) {
+      @media (max-width: $mobileLargePortrait) {
 
         display: inline-block;
 
@@ -75,7 +81,7 @@
 
     }
 
-    @media (max-width: $mobileLarge) {
+    @media (max-width: $mobileLargePortrait) {
 
       margin: 7.5px 0;
 
@@ -88,12 +94,6 @@
     color: $white;
     transition: $fastTransition;
   
-  }
-
-  @media (max-width: $mobileLarge) {
-
-    background: rgba($black, 0.65);
-
   }
 
 }

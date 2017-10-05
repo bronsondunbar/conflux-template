@@ -2,6 +2,9 @@
 // @codekit-prepend 'lib/jquery.1.12.4.js'
 // @codekit-prepend 'lib/bootstrap.js'
 // @codekit-prepend 'lib/typed.js'
+// @codekit-prepend 'lib/jquery.waypoints.js'
+// @codekit-prepend 'lib/velocity.js'
+// @codekit-prepend 'lib/velocity.ui.js'
 
 
 // @codekit-prepend 'templateNavbar.js'

@@ -2,6 +2,47 @@
 /* Template navbar */
 
 $(document).ready(function () {
+
+  var scrollPosition = $(window).scrollTop();
+
+  if (scrollPosition > 0) {
+
+    $(".navbar-default").velocity({
+        backgroundColor : "#000000",
+        backgroundColorAlpha : 0.9
+    }, 100);
+
+  }
+
+  /* Navbar background scroll color animation */
+
+  $("body").waypoint(function() {
+
+    $(".navbar-default").velocity({
+        backgroundColor : "#000000",
+        backgroundColorAlpha : 0
+    }, 100);
+
+
+  }, {
+
+    offset: "-1"
+
+  });
+
+
+  $(".waypoint").waypoint(function() {
+ 
+    $(".navbar-default").velocity({
+        backgroundColor : "#000000",
+        backgroundColorAlpha : 0.9
+    }, 200);
+
+  }, {
+
+    offset: "1"
+
+  });
 	
 	/* Navbar actions */
 
