@@ -8,6 +8,8 @@ https://codekitapp.com/
 
 Preview https://bronsondunbar.github.io/conflux-template/
 
+React Redux https://github.com/bronsondunbar/conflux-template-react-redux
+
 ## License
 
 MIT License
