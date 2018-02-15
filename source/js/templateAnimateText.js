@@ -8,7 +8,7 @@ $(document).ready(function () {
   if (currentPage.indexOf("article") == -1) {
 
     var options = {
-      strings: ["creative.^1000", "bold.^1000", "confident.^1000"],
+      strings: ["Quisque.^1000", "Scelerisque.^1000", "Fringilla.^1000"],
       typeSpeed: 40,
       backSpeed: 40,
       cursorChar: '|',
