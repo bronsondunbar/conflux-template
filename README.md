@@ -8,13 +8,13 @@ https://codekitapp.com/
 
 Preview https://bronsondunbar.github.io/conflux-template/
 
-React Redux https://github.com/bronsondunbar/conflux-template-react-redux
+<a href="https://github.com/bronsondunbar/conflux-template-react-redux">React template</a>
 
 ## License
 
 MIT License
 
-Copyright (c) 2017 Bronson Dunbar www.bronsondunbar.com
+Copyright (c) 2018 Bronson Dunbar www.bronsondunbar.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
