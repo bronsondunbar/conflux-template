@@ -8,7 +8,7 @@ https://codekitapp.com/
 
 Preview https://bronsondunbar.github.io/conflux-template/
 
-<a href="https://github.com/bronsondunbar/conflux-template-react-redux">React template</a>
+<a href="https://github.com/bronsondunbar/conflux-template-react">React template</a>
 
 ## License
 
